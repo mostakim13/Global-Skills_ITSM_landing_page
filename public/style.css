@@ -1,0 +1,62 @@
+body {
+    background-image: url("https://i.ibb.co/TYLpnCB/thumbimg-25361957thumbejpg.jpg");
+    background-color: #f8f6f6f6;
+    background-blend-mode: overlay;
+}
+
+.sayedBro {
+    width: 380px;
+    height: 500px;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.video {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    overflow: hidden;
+}
+
+.logo-2 {
+    width: 400px;
+    margin: 0 auto;
+}
+
+.mid-text {
+    padding-left: 20px;
+    text-align: justify;
+    font-size: 20px;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+}
+
+@media (max-width: 768px) {
+    .logo-2 {
+        width: 250px;
+    }
+
+    .video {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        overflow-x: hidden;
+    }
+
+    .mid {
+        flex-direction: column;
+    }
+
+    .sayedBro {
+        width: 250px;
+    }
+
+}
